@@ -6,7 +6,8 @@ var response;
 app.get('/', function (req, res) {
 
     response = 'Meine neue Version.' + '\n';
-
+     
+    //neues Kommentar
     //send the response to the client
     res.send(response);
 
